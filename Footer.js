@@ -20,8 +20,19 @@ const titleStyle = {
 export default function Footer () {
     return (
         <div style={footerStyle}>
-            <a style={titleStyle} href="http://senjs.eu/"> Designed SeN</a> 
-            <Button variant="contained" color="primary" href="http://senjs.eu/" >Designed SeN</Button>
+            <a 
+                style={titleStyle} 
+                href="http://senjs.eu/"
+            > 
+                Designed SeN
+            </a> 
+            <Button 
+                variant="contained" 
+                color="primary" 
+                href="http://senjs.eu/"
+            >
+                 Designed SeN
+            </Button>
         </div>
     )
 }
